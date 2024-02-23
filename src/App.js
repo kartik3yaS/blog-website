@@ -30,7 +30,6 @@ function App() {
         setPosts(response.data);
       } catch (err) {
         if (err.response) {
-          // Not in the 200 response range 
           console.log(err.response.data);
           console.log(err.response.status);
           console.log(err.response.headers);
